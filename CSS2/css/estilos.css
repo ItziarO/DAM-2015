@@ -1,0 +1,29 @@
+h1,td, #adicional a{
+    color:#3CB371;
+}
+h2, a em, caption{
+    color:#4169E1;
+}
+strong, a, th{
+    color:#F00;
+}
+
+.destacado, thead, tr .especial, td strong{
+    color:#FF0;
+}
+
+table, tr, td , th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#adicional p {
+    color:#6B8E23;
+}
+
+span.especial {
+    color:#639;
+}
+#adicional #especial{
+    color:#DA70D6;
+}
