@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<title>Ejercicio 10 - Formulario de alta</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="contenedor">
+
+<h1>Formulario de alta</h1>
+
+<form method="post" action="#">
+<div class="contenedor">
+<div class="columna1">
+  <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
+
+
+      <input id="nombre" name="nombre" value="" size="10" />
+      <label for="nombre">Nombre</label>
+    </span>
+
+    <span>
+      <input id="apellido1" name="apellido1" value="" />
+      <label for="apellido1">Primer apellido</label>
+    </span>
+
+    <span>
+      <input id="apellido2" name="apellido2" value="" />
+      <label for="apellido2">Segundo apellido</label>
+    </span>
+
+    <label class="titulo email" for="email">Email</label>
+
+
+    <span>
+      <input id="email" name="email" value="" />
+    </span>
+
+
+
+</div>
+
+<div class="columna2">
+  <label class="titulo" for="direccion">Direcci&oacute;n <span class="requerido">*</span></label>
+
+
+    <span>
+      <input id="direccion" name="direccion" value="" />
+      <label for="direccion">Calle, n&uacute;mero, piso, puerta</label>
+    </span>
+
+    <span>
+      <input id="codigopostal" name="codigopostal" value="" />
+      <label for="codigopostal">C&oacute;digo postal</label>
+    </span>
+
+    <span>
+      <input id="municipio" name="municipio" value="" />
+      <label for="municipio">Municipio</label>
+    </span>
+
+    <span class="provincia">
+      <select id="provincia" name="provincia">
+        <option value=""></option>
+        <option value="provincia1">Provincia 1</option>
+        <option value="provincia2">Provincia 2</option>
+        <option value="provincia3">Provincia 3</option>
+      </select>
+      <label for="provincia">Provincia</label>
+    </span>
+
+    <span class="pais">
+      <select id="pais" name="pais">
+        <option value=""></option>
+        <option value="pais1">Pa&iacute;s 1</option>
+        <option value="pais2">Pa&iacute;s 2</option>
+        <option value="pais3">Pa&iacute;s 3</option>
+      </select>
+      <label for="pais">Pa&iacute;s</label>
+    </span>
+
+    <label class="titulo telefono" for="telefonofijo">Tel&eacute;fono <span class="requerido">*</span></label>
+
+
+    <span>
+      <input id="telefonofijo" name="telefonofijo" value="" />
+      <label for="telefonofijo">Fijo</label>
+    </span>
+
+    <span>
+      <input id="telefonomovil" name="telefonomovil" value="" />
+      <label for="telefonomovil">M&oacute;vil</label>
+    </span>
+
+</div>
+
+
+
+<div>
+  <input id="alta" type="submit" class="boton" value="Darme de alta &rarr;" />
+</div>
+</div>
+</form>
+
+</div>
+</body>
+</html>

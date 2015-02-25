@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 14px/26px Verdana, Geneva, sans-serif;
+}
+
+h1 {
+
+    margin-bottom: 4%;
+
+}
+
+.contenedor {
+    width: 80%;
+}
+
+.columna1, .columna2 {
+    width: 50%;
+}
+
+.columna1 {
+    float: left;
+}
+
+.columna2 {
+    float: right;
+}
+
+.requerido{
+    color: red;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.boton{
+    float: right;
+
+}
+label{
+    font-size: 14px;
+}
+label,input,select{
+   float: left;
+   clear: both;
+}
+.provincia, .pais{
+    width: 50%;
+    float: left;
+}
+.telefono{
+    margin-top: 10%;
+}
+.email{
+    margin-top: 30%;
+}
