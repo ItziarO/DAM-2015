@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+
+}
+ li{
+    background-color: purple;
+}
+li li {
+     background-color: red;
+}
+
+.segundaTabla li{
+    display: inline-block;
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: purple;
+
+}
+.segundaTabla ul,.segundaTabla li{
+
+    text-align: center;
+        background-color: blue;
+}
+
+.cuartaTabla ul, .cuartaTabla ul ul{
+    display: inline;
+
+}
+.cuartaTabla li li{
+     background-color: red;
+
+
+}
+
+
+/* última tabla
+h2+ul>li{
+    background-color: orange;
+    display: inline-block;
+
+}
+*/
