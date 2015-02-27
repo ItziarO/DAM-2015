@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+ .morado{
+    background-color: purple;
+     border: 1px solid white;
+     position: absolute;
+     height: 20%;
+     top:68%;
+    left: 5%;
+    width: 25%;
+}
+.rojo {
+     background-color: red;
+     border: 1px solid white;
+     position: absolute;
+     height: 20%;
+     top:68%;
+    left: 70%;
+    width: 25%;
+}
+
+.azul{
+    background-color: blue;
+    border: 1px solid white;
+    position: absolute;
+    left: 70%;
+    width: 25%;
+    height: 20%;
+}
+
+.marron{
+     background-color: brown;
+     border: 1px solid white;
+     width: 80%;
+     margin:0 auto;
+     padding-top: 1%;
+     padding-bottom: 6%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.amarillo {
+    background-color: yellow;
+    border: 1px solid white;
+    position: absolute;
+    top:38%;
+    left: 5%;
+    width: 25%;
+    padding-bottom: 8%;
+
+}
+
+.verde{
+    background-color: green;
+    border: 1px solid white;
+    width: 25%;
+     position: absolute;
+     height: 30%;
+     top:38%;
+    left: 35%;
+    width: 55%;
+}
+div:hover{
+    z-index: 100;
+}
+
