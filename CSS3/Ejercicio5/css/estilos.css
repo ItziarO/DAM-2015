@@ -90,7 +90,8 @@ body
     margin: 0 0 10px 10px;
 }
 
-@media (max-width: 1000px) {
+@media  (min-width: 451px) and (max-width: 1000px) {
+    /*Se le indica el mínimo para que así no cargue también estos estilos para los del máximo 450px*/
     #content{
         width: 78%;
         margin:0 2% 0 0;
@@ -103,6 +104,9 @@ body
     #nav{
         margin-right: 2%;
          width: 18%;
+    }
+    .feature-image{
+    width: 40%;
     }
 }
 
