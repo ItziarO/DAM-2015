@@ -1,4 +1,4 @@
-window.onload(function(
+window.onload= function(){
 
 
 
@@ -31,4 +31,4 @@ window.onload(function(
     }
               //Llamar a la function validar
 
- ));
+}));
