@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+    <div data-role="page" data-theme="b" id="primera">
+        <div data-role="header">
+            <h1>Página 1</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="orientacion">Contenido</p>
+
+
+            <div data-jqm-role="page">
+            <div data-jqm-role="header">
+              <h2>jQuery Mobile Example</h2>
+            </div>
+            <div data-jqm-role="content">
+              <div id="the-popup" data-jqm-role="popup" data-jqm-position-to="window">
+                <p>Example popup.</p>
+              </div>
+              <a href="#the-popup" data-jqm-rel="popup" class="ui-btn ui-corner-all ui-shadow">Open Popup</a>
+            </div>
+          </div>
+
+            <div data-role="panel" id="mypanel" data-position="right">
+
+                <p>Contenido lateral</p>
+
+            </div>
+
+            <a href="#segunda" data-role="button" data-icon="star" data-iconpos="left" data-theme="a" data-mini="true" data-transition="slide">Ir a página2</a>
+        </div>
+        <div data-role="footer">
+            <p>Pie</p>
+        </div>
+    </div>
+
+    <div data-role="page" data-theme="b" id="segunda">
+        <div data-role="header">
+            <h1>Página 2</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+
+            <input type="button" id="boton_efecto" value="Ampliar" />
+            <div class="toggler">
+              <div id="efecto" class="clase-one ui-corner-all">
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+              </div>
+            </div>
+
+            <a href="#primera" id="ancla" data-role="button" data-icon="home" data-iconpos="notext" data-transition="slidedown"></a>
+            <a href="#tercera" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a" data-mini="true" data-transition="slide">Ir a la última página</a>
+        </div>
+        <div data-role="footer">
+            <p>Pie</p>
+        </div>
+    </div>
+
+    <div data-role="page" data-theme="b" id="tercera">
+        <div data-role="header">
+            <h1>Página 3</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+
+            <div data-role="collapsible-set">
+
+            <div data-role="collapsible" data-collapsed="false">
+            <h3>Sección 1</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
+            </div>
+
+            <div data-role="collapsible">
+            <h3>Sección 2</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
+            </div>
+
+            <div data-role="collapsible">
+            <h3>Sección 3</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
+            </div>
+
+        </div>
+
+            <a href="previous.html" data-rel="back" data-direction=”reverse”>atrás</a>
+            </div>
+        <div data-role="footer">
+            <p>Pie</p>
+        </div>
+    </div>
+
+
+
+
+        <script type="text/javascript" src="js/codigo.js"></script>
+    </body>
+</html>
