@@ -1,0 +1,5 @@
+.toggler { width: 200px; height: auto; position: relative; }
+#efecto { position: relative;}
+.clase-one { width: 240px;  padding: 5px; letter-spacing: 0px; font-size: 15px; margin: 0; }
+.clase-two { text-indent: 40px; letter-spacing: 2px; width: 210px; padding: 30px; margin: 10px; font-size: 20px; border: 1px solid #00FFFF;}
+

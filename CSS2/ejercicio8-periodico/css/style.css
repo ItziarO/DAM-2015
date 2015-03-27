@@ -30,7 +30,7 @@ h3{
 .header{
     text-align: center;
     background-color: rgb(194, 194, 247);
-    height: 70px;
+    height: 95px;
     padding-top: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid black;
@@ -49,8 +49,7 @@ li{
     float: left;
     display: inline;
     width: 20%;
-    padding-top: 1%;
-    height: 30px;
+    height: 41px;
     background-color: black;
 }
 
@@ -111,12 +110,12 @@ li:hover{
 .ads{
     width: 18%;
     float: right;
-    padding-left: 2%;
+    padding-left: 1%;
     margin-top: 2%;
 }
 
 .footer {
-    height: 10px;
+    height: 48px;
     background-color: black;
     color: white;
     display: block;
@@ -124,4 +123,7 @@ li:hover{
     text-align: center;
     padding: 1% 0;
     border-top: 1px solid black;
+}
+.btn-grupo{
+    margin-bottom: 4%;
 }
